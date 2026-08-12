@@ -1,0 +1,16 @@
+.gitignore
+CHANGELOG.md
+EVIDENCE.md
+GITHUB_UPLOAD.md
+MANIFEST.txt
+README.md
+SHA256SUMS
+VERSION
+apply-profile.sh
+install.sh
+lib.sh
+pm3406cha-audio-daemon.sh
+pm3406cha-audio-fix.service
+uninstall.sh
+verify-state.sh
+windows-profiles.csv
