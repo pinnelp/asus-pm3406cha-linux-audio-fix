@@ -107,7 +107,3 @@ Speaker profile uses GPIO2 high (`0x04`) for the speaker path, speaker pin `0x14
 Headphone profile keeps GPIO2 low, leaves `0x14` as OUT, selects connection 1 on pin `0x21`, and enables it as `OUT|HP` (`0xc0`). A small set of Realtek coefficients is switched between the Windows-derived speaker/headphone values.
 
 This repository is deliberately a userspace workaround rather than pretending to be an upstream-quality kernel quirk. A future kernel fix should encode only the minimum proven initialization/state changes for subsystem `1043:3541`.
-
-## License
-
-No license is selected in this bundle. Add the license you want before publishing if you intend others to reuse or redistribute the code.
